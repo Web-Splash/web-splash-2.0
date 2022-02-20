@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+p {
+  margin: 15px 0;
+  line-height: 1.8;
+}
+
+.blog-text ul,
+ol {
+  font-size: 110%;
+  line-height: 2.3;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.blog-text pre {
+  border: #374151;
+  padding: 20px;
+  margin: 20px 0;
+  line-height: 2.3;
+}
+
+.blog-text h1 {
+  font-size: 35px;
+}
+
+.blog-text h2,
+.blog-text h3,
+.blog-text h4 {
+  font-size: 27px;
+}
+
+/* Fix category colors in production */
+.bg-lightblue-600 {
+  background-color: #09B6D4;
+}
+.bg-blue-600 {
+  background: #3929eb;
+}
+.bg-green-600 {
+  background-color: #049669;
+}
+.bg-purple-600 {
+  background-color: #7730db;
+}
+.bg-red-600 {
+  background-color: #a70b34;
+}
+.bg-yellow-600 {
+  background-color: #e0ab3b;
+}
+.bg-orange-600 {
+  background-color: #ff6102;
+}
+.bg-coffee-600 {
+  background-color: #5d4037;
+}
+.bg-pink-600 {
+  background-color: #ff79ff;
+}
+
+body::-webkit-scrollbar-track
+{
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  background-color: #1F2937;
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #1F2937;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+  background-color: #1F2937;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #bbbbbb;
+  background-image: -webkit-linear-gradient(45deg,
+  rgba(255, 255, 255, .2) 25%,
+  transparent 25%,
+  transparent 50%,
+  rgba(255, 255, 255, .2) 50%,
+  rgba(255, 255, 255, .2) 75%,
+  transparent 75%,
+  transparent)
+}
